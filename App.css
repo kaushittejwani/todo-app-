@@ -1,0 +1,148 @@
+.App {
+  text-align: center;
+  
+}
+body{
+  background-color:navy;
+}
+#img{
+  height:200px;
+  filter: brightness(0) invert(1);
+  
+ 
+}
+figcaption{
+  color:white;
+  margin-top: 50px;
+  font-size: 20px;
+  margin-top:-36px;
+}
+.input{
+  width: 300px;
+  height:40px;
+  font-size: 20px;
+  margin-left: 48px;
+}
+.fa-solid{
+  color:white;
+}
+.u{
+  margin-top:-6px;
+}
+h4{
+  position:relative;
+  height:38px;
+  width:280px;
+margin:10px;
+padding: auto;
+  font-size: 24px;
+  border:2px static bold black;
+  background-color: white;
+  text-align:left;
+  overflow:auto;
+font-family:'Times New Roman', Times, serif sans-serif;
+ 
+  
+}
+.fa-solid{
+  filter: brightness(0) invert(1);
+
+  color:white;
+  position:relative;
+  right:0;
+
+
+}
+
+.displayItems{
+  width:360px;
+  margin:auto;
+  height:auto;
+  text-align: center;
+
+
+
+
+
+}
+
+
+  
+
+
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.input-icons{
+  text-align: center;
+  align-items: center;
+  position:absolute;
+}
+.icon {
+  padding: 10px;
+  color: green;
+  min-width: 50px;
+  text-align: center;
+}
+.update{
+  position: absolute;
+    width: 68px;
+    margin-left: 112px;
+    margin-top: -48px;
+}
+.delete{
+   width: 69px;
+    float: right;
+    margin-top: -48px;
+    margin-right: -71px;
+}
+
+
+.remove{
+  position: relative;
+  margin:auto;
+  padding:auto;
+  height: 46px;
+  width:107px
+
+
+}
+.add{
+  height:40px;
+  padding:6px;
+  margin-bottom:6px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
